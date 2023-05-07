@@ -1,7 +1,6 @@
 const year = +prompt('In what year were you born?');
 const userAge = (2023 - year);
 const city = prompt('In what city were you born?');
-
 const sport = prompt('What is your favorite sport?');
 
 if(isNaN(year) || year === 0 || year === null) {
@@ -21,7 +20,6 @@ if(city === 'Kyiv' || city === 'kyiv') {
 } else {
     alert(`Nice, you live in ${city}`);
 }
-
 
 if(sport === 'futball' || sport === 'football' || sport === 'Football' || sport === 'Futball') {
 		alert('Perfect, you want to be like Andrey Voronin?')
